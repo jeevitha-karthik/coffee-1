@@ -1,0 +1,745 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: "Outfit", sans-serif;
+}
+.container {
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+}
+
+.logo p {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.magni img {
+    height: 50px;
+}
+
+.content {
+    margin-top: 108px;
+    margin-left: 15%;
+}
+
+.content p:nth-of-type(1) {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 2px;
+}
+
+.content p:nth-of-type(2) {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 72px;
+    width: 557px;
+    margin-bottom: 16px;
+}
+
+.content p:nth-of-type(3) {
+    color: white;
+    width: 400px;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 56px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content button {
+    height: 55px;
+    width: 170px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+/* second container */
+
+.second-container {
+    background-color: #E2D9C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.second-container img {
+    height: 125px;
+    object-fit: contain;
+}
+
+/*  Dessert Section */
+
+.third-container .title p {
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px 0 41px;
+    color: #30261C;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.overall {
+    border: 1px solid #E2D9C8;
+    border-radius: 18px;
+    width: 334px;
+    min-height: 530px;
+    padding: 10px;
+}
+
+.overall img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.pro-title {
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    padding: 5px 0 5px 6px;
+}
+
+.pro-content p {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: #2A0000;
+    padding: 0 6px 10px;
+}
+
+.separeate {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.separeate p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #2A0000;
+    padding-left: 6px;
+}
+
+.separeate button {
+    background-color: #2A0000;
+    width: 127px;
+    height: 47px;
+    border-radius: 8px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/* fourth container */
+
+.fourth-container {
+    background-color: #E2D9C8;
+    margin-top: 64px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.fourth-container img {
+    height: 250px;
+    width: 27%;
+    object-fit: contain;
+}
+
+.coffee-content {
+    flex: 1;
+    text-align: center;
+}
+
+.coffee-content p {
+    font-size: 40px;
+    line-height: 1.1;
+    color: #30251D;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.coffee-content button {
+    background-color: #30251D;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 51px;
+    width: 258px;
+}
+
+/* Happy Customers Title */
+
+.fifty-title p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.fifth-con p {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Customer Reviews */
+
+.six-co {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.sixth {
+    width: 350px;
+    height: 180px;
+    border: 1px solid #E2D9C8;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+/* Customer Image,  and Stars */
+
+.six-con {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.siss img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.star {
+    margin-left: 12px;
+}
+
+.star p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.star span {
+    font-size: 13px;
+    color: gray;
+}
+
+/* Stars moved to the right side */
+
+.stars {
+    margin-left: auto;
+    text-align: right;
+    
+}
+
+.stars i {
+    color: #FFD43B;
+    font-size: 13px;
+}
+
+/* Customer Review Text */
+
+.cont p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #444;
+}
+
+/* Button Hover */
+
+
+
+
+#sixth{
+    height: 200px;
+}
+
+
+.stars {
+    margin-left: auto;
+    text-align: right;
+   
+}   
+
+.navigaror {
+    margin-top: 50px;
+}
+
+.navigaror ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigaror ul li{
+    font-size: 30px;
+}
+.navigaror ul li:first-child::marker{
+    color: #30261C;
+}
+.navigaror ul li:nth-child(2)::marker {
+    color: rgb(48, 38, 28,0.5);
+}
+.navigaror ul li:nth-child(3)::marker {
+    color: rgb(48, 38, 28,0.6);
+}
+
+footer{
+    background-color: #30261C;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.foot ul{
+    list-style: none;
+}
+
+.foot ul li{
+    margin-top: 15px;
+}
+
+.foot{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     text-align: center;
+    flex-direction: row;
+}
+
+.foot-title p{
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.fon{
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.foot ul li{
+    color: #ffffff;
+}
+
+.ones{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Newsletter Footer - corrected coffee image positioning */
+.newsletter {
+    width: 100%;
+    min-height: 160px;
+    margin-top: 2px;
+    padding: 25px 15px;
+    background-color: #e5dccb;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.newsletter .coffee-beans {
+    position: absolute;
+    top: 50%;
+    width: 180px;
+    height: 220px;
+    transform: translateY(-50%);
+    z-index: 1;
+    
+}
+
+.newsletter .coffee-beans img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.newsletter .beans-left {
+    left: 0;
+}
+
+.newsletter .beans-right {
+    right: 0;
+}
+
+.newsletter .beans-right img {
+    transform: scaleX(1);
+   ;
+}
+
+.newsletter-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    color: #33271e;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.newsletter-content p {
+    color: #33271e;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.email-box {
+    width: 278px;
+    height: 43px;
+    background-color: #f8f6f2;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 7px;
+}
+
+.email-box span {
+    font-size: 15px;
+    color: #33271e;
+}
+
+.email-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 12px;
+    color: #33271e;
+}
+
+.email-box input::placeholder {
+    color: #33271e;
+    font-size: 12px;
+}
+
+.newsletter-form button {
+    height: 43px;
+    width: 150px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #33271e;
+    color: #fff;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #755032;
+}
+        /* Mobile Responsive */
+
+        
+/* Responsive Design */
+
+@media (max-width: 767px) {
+
+    /* Nav bar */
+
+    nav {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+        gap: 90px;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .magni img {
+        height: 35px;
+    }
+
+    /* Hero Content */
+
+    .content {
+        text-align: center;
+        margin: 35% 10%;
+        padding-bottom: 40px;
+    }
+
+    .content p:nth-of-type(2) {
+        margin-top: 15px;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .content p:nth-of-type(3) {
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+
+    /* Category Images */
+
+    .second-container {
+        gap:80px;
+    }
+
+    .second-container img {
+        height: 100px;
+    }
+
+    /* Products */
+
+    .third-container .title p {
+        font-size: 24px;
+        margin: 15px 10px 20px;
+    }
+
+    .overall {
+        width: 90%;
+        max-width: 310px;
+    }
+
+    /* Coffee Beans */
+
+    .fourth-container {
+        min-height: 150px;
+        gap: 20px;
+    }
+
+    .fourth-container img {
+        width: 30%;
+        height: 120px;
+    }
+
+    .coffee-content p {
+        font-size: 20px;
+    }
+
+    .coffee-content button {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /* Happy Customers */
+
+    .fifty-title p {
+        font-size: 24px;
+    }
+
+    .fifth-con p {
+        font-size: 24px;
+    }
+
+    .six-co {
+        gap: 10px;
+    }
+
+    .sixth {
+        width: 100%;
+        max-width: 417px;
+    }
+
+    .stars i {
+        font-size: 11px;
+    }
+
+    
+.navigaror {
+    margin-top: 450px;
+}
+
+.navigaror ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigaror ul li{
+    font-size: 30px;
+}
+.navigaror ul li:first-child::marker{
+    color: #30261C;
+}
+.navigaror ul li:nth-child(2)::marker {
+    color: rgb(48, 38, 28,0.5);
+}
+.navigaror ul li:nth-child(3)::marker {
+    color: rgb(48, 38, 28,0.6);
+}
+
+
+}
+
+@media (max-width: 460px) {
+
+    .sixth {
+        padding: 10px;
+    }
+
+    .siss img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .star {
+        margin-left: 8px;
+    }
+
+    .star p {
+        font-size: 13px;
+    }
+
+    .star span {
+        font-size: 11px;
+    }
+
+    .stars i {
+        font-size: 9px;
+    }
+
+
+    footer{
+    background-color: #30261C;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.foot ul{
+    list-style: none;
+}
+
+.foot ul li{
+    margin-top: 15px;
+}
+
+.foot{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+}
+
+
+
+
+
+
+.ones{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+            .newsletter {
+                min-height: 180px;
+            }
+
+            .coffee-beans {
+                width: 50px;
+                opacity: 0.7;
+            }
+
+            .newsletter-content h2 {
+                font-size: 15px;
+            }
+
+            .newsletter-content p {
+                font-size: 8px;
+            }
+
+            .email-box {
+                width: 155px;
+            }
+            .newsletter-form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
